@@ -1,7 +1,7 @@
-package aarays;
 
-public class Array1 {
-	
+public class ArrayException {
+
+
 public static void main(String[] args) {
 	int [] numerators = {10,200,30,40};
 	int [] denominators = {1,2,0,3};
@@ -25,7 +25,7 @@ public static int divide(int a , int b) {
 return a/b;
 	}
 	catch(Exception e) {
-		System.out.println(e);
+		System.out.println("you cant not divide by zero ");
 		return -1;
 	}
 }
