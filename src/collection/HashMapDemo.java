@@ -22,11 +22,11 @@ public static void main(String []args ) {
 		
 		Map.Entry m1 = (Map.Entry)itr.next();
 	
-	System.out.println(m1.getKey()+"   "+m1.getKey());
+	System.out.println(m1.getKey()+"   "+m1.getValue());
 	
-	if(m1.getKey().equals("500")) {
-		m1.setValue(10000);
-		System.out.println(m1);
+	if (m1.getKey().equals("500")) {
+        m1.setValue("rejan");  // change value
+        System.out.println("Updated Entry: " + m1);
 	}
 	
 	
