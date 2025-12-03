@@ -1,7 +1,11 @@
 package jaava8;
 import java.util.*;
 import java.util.stream.*;
-public class LambdaExpression {
+
+public class Evenlambda {
+	
+
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,3 +26,4 @@ public class LambdaExpression {
 	}
 
 }
+
