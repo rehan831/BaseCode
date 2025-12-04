@@ -1,0 +1,8 @@
+package jaava8;
+
+public interface Employee {
+	public String getSalary();
+	
+	public String getDesignation();
+
+}
